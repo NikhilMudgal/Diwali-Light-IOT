@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diwali Light</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/paho-mqtt-min.js"></script>
+	<script src="js/paho-mqtt.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+<div data-role="page" id ="mainpage" >
+
+<div data-role="main" class="ui-content">
+		
+      <button onclick="script:choice('a')">PATTERN A</button>
+		<button onclick="script:choice('b')">PATTERN B</button>
+		<button onclick="script:choice('c')">PATTERN C</button>
+		<button onclick="script:choice('d')">PATTERN D</button>
+		<button onclick="OFF('e')">TURN-OFF-LIGHTS</button>
+</div>
+</div>
+
+</body>
+</html>
